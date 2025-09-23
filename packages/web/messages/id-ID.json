@@ -1,0 +1,210 @@
+{
+  "Index": {
+    "title": "Dukung Favoritmu, Cetak NFT",
+    "description": "Masukkan nama pengguna X favoritmu untuk memberikan dukungan.",
+    "receiveLogs": "Terima Log Dukungan",
+    "supportLogs": "Log Dukungan",
+    "previewProfile": "Pratinjau Profil"
+  },
+  "Account": {
+    "bannerImageAlt": "Gambar Spanduk",
+    "supportButton": "Dukung @{username}",
+    "viewButton": "Lihat Profil @{username}",
+    "connectWalletToSupport": "Hubungkan Dompet untuk Mendukung @{username}",
+    "errorTitle": "Kesalahan",
+    "errorDescription": "Tidak ditemukan alamat kontrak untuk nama pengguna: @{username}"
+  },
+  "ConfirmSupportDialog": {
+    "error": "Kesalahan",
+    "walletNotConnected": "Dompet belum terhubung.",
+    "failedToGetTypedData": "Gagal mendapatkan data bertipe.",
+    "success": "Berhasil!",
+    "nftMinted": "NFT berhasil dicetak.",
+    "paymentFailed": "Pembayaran Gagal",
+    "paymentError": "Terjadi kesalahan saat memproses pembayaranmu. Silakan coba lagi.",
+    "title": "Konfirmasi Dukunganmu",
+    "description": "Kamu akan mendukung @{username}. Harap konfirmasi detail di bawah ini.",
+    "confirmButton": "Konfirmasi Dukungan",
+    "cancelButton": "Batal"
+  },
+  "Tokens": {
+    "title": "Token yang Didukung",
+    "description": "Pilih token untuk melihat saldo dan detailmu.",
+    "name": "Nama Token",
+    "symbol": "Simbol",
+    "balance": "Saldo"
+  },
+  "ValueDialog": {
+    "title": "NILAI",
+    "description": "Berapa banyak yang akan kamu dukung @{username}?",
+    "balance": "Saldo: {balance}",
+    "max": "maksimal",
+    "confirm": "Konfirmasi",
+    "close": "Tutup"
+  },
+  "MessageButton": {
+    "sendMessage": "Kirim Pesan",
+    "messageSent": "Pesan Terkirim"
+  },
+  "NFTPage": {
+    "tokenId": "ID Token: {tokenId}",
+    "owner": "Pemilik",
+    "description": "Deskripsi NFT",
+    "value": "Nilai",
+    "creatorAddress": "Alamat Pembuat",
+    "supportMore": "Dukung Lebih Banyak @{username}"
+  },
+  "PreviewContent": {
+    "copied": "Disalin!",
+    "addressCopied": "Alamat disalin ke papan klip.",
+    "copyFailed": "Gagal Menyalin",
+    "couldNotCopyAddress": "Tidak dapat menyalin alamat.",
+    "bannerImageAlt": "Gambar Spanduk",
+    "areYouUsername": "Apakah kamu @{username}?",
+    "deployInstruction": "Untuk menerapkan kontrak pintar NFT-mu, tambahkan alamat dompet ini ke deskripsi profil X-mu:",
+    "confirmProceed": "Setelah menambahkan, tekan Konfirmasi untuk melanjutkan.",
+    "achtung": "Perhatian:",
+    "ensureDetails": "Pastikan detail profilmu (nama, deskripsi, ikon, spanduk) akurat dan sesuai. Informasi ini akan disimpan secara permanen di blockchain dan tidak dapat diubah.",
+    "confirm": "Konfirmasi"
+  },
+  "VerifyPage": {
+    "noExifComment": "Tidak ada Komentar Pengguna EXIF yang ditemukan.",
+    "errorProcessingFile": "Kesalahan: {message}",
+    "onlyJpegAllowed": "Hanya file JPEG yang diizinkan.",
+    "title": "Verifikasi File JPEG",
+    "dropFiles": "Letakkan file JPEG di sini...",
+    "dragOrClick": "Seret & lepas beberapa file JPEG di sini, atau klik untuk memilih file",
+    "fileName": "Nama File",
+    "size": "Ukuran (byte)",
+    "type": "Jenis File",
+    "verified": "Diverifikasi",
+    "message": "Pesan",
+    "signerAddress": "Alamat Penanda Tangan",
+    "error": "Kesalahan",
+    "yes": "Ya",
+    "no": "Tidak",
+    "notAvailable": "T/A"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "Ketentuan",
+    "privacy": "Privasi"
+  },
+  "Header": {
+    "loading": "Memuat dompet...",
+    "notConnected": "Dompet belum terhubung",
+    "title": "aq Mint",
+    "connectWallet": "Hubungkan Dompet"
+  },
+  "ConnectWalletDialog": {
+    "title": "Hubungkan Dompet",
+    "description": "Dialog masuk sekarang sedang dibuka. Silakan pilih akun sosial yang Anda inginkan untuk menghubungkan dompet.",
+    "connect": "Hubungkan"
+  },
+  "DisconnectWalletDialog": {
+    "title": "Putuskan Sambungan Dompet",
+    "description": "Apakah kamu yakin ingin memutuskan sambungan dompetmu?",
+    "cancel": "Batal",
+    "disconnect": "Putuskan Sambungan"
+  },
+  "ErrorDialog": {
+    "close": "Tutup"
+  },
+  "MessageDialog": {
+    "connectWallet": "Harap hubungkan dompetmu terlebih dahulu.",
+    "title": "Kirim Kartu Pesan",
+    "description": "Kirim pesan ke pembuat NFT.",
+    "message": "Pesan",
+    "placeholder": "Ketik pesanmu di sini.",
+    "send": "Kirim Kartu Pesan",
+    "confirmTitle": "Konfirmasi Pesan",
+    "confirmDescription": "Apakah kamu yakin ingin mengirim pesan ini?",
+    "cancel": "Batal",
+    "confirmSend": "Konfirmasi Kirim"
+  },
+  "ReceiveLogs": {
+    "supporter": "Pendukung",
+    "tokenId": "ID Token",
+    "value": "Nilai",
+    "mintedAt": "Dicetak Pada",
+    "timestamp": "Stempel Waktu",
+    "message": "Pesan",
+    "reply": "Balas",
+    "transaction": "Transaksi",
+    "alreadyReplied": "Sudah dibalas",
+    "view": "Lihat",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "page": "Halaman",
+    "of": "dari"
+  },
+  "ReplyDialog": {
+    "connectWallet": "Harap hubungkan dompetmu terlebih dahulu.",
+    "enterMessage": "Harap masukkan pesan.",
+    "failedToSend": "Gagal mengirim balasan. Silakan coba lagi.",
+    "replyToMessage": "Balas pesan ini",
+    "title": "Balas Pesan",
+    "yourReply": "Balasanmu",
+    "placeholder": "Ketik balasanmu di sini.",
+    "sending": "Mengirim...",
+    "sendReply": "Kirim Balasan",
+    "confirmTitle": "Konfirmasi Balasan",
+    "confirmDescription": "Apakah kamu yakin ingin mengirim balasan ini?",
+    "cancel": "Batal",
+    "confirmSend": "Konfirmasi Kirim"
+  },
+  "SupportLogs": {
+    "noReplyCard": "Tidak ada kartu balasan yang ditemukan untuk token ini.",
+    "accountSupported": "Akun yang Didukung",
+    "tokenId": "ID Token",
+    "value": "Nilai",
+    "mintedAt": "Dicetak Pada",
+    "timestamp": "Stempel Waktu",
+    "message": "Pesan",
+    "reply": "Balas",
+    "transaction": "Transaksi",
+    "download": "Unduh",
+    "notYet": "Belum",
+    "view": "Lihat",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "page": "Halaman",
+    "of": "dari"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "Dukung Orang Favoritmu",
+    "slide1Description": "Tunjukkan penghargaanmu dengan mencetak NFT yang unik. Orang favoritmu akan langsung menerima dukunganmu.",
+    "slide2Title": "Pembayaran Fleksibel",
+    "slide2Description": "Cetak NFT menggunakan token apa pun yang kamu miliki. Kami menangani konversi ke USDt untuk orang favoritmu secara otomatis.",
+    "slide3Title": "Terima NFT Unik",
+    "slide3Description": "Dapatkan dukungan kriptografi unik sebagai bukti dukungan permanenmu.",
+    "slide4Title": "Kirim Pesan Pribadi",
+    "slide4Description": "Lampirkan pesan pribadi ke NFT-mu dan terhubung langsung dengan orang favoritmu.",
+    "slide5Title": "Dapatkan Balasan",
+    "slide5Description": "Orang favoritmu dapat membalas pesanmu. Kamu kemudian dapat mengunduh seluruh percakapan sebagai gambar yang dapat diverifikasi, mengabadikan interaksi kalian selamanya.",
+    "slide6Title": "Siap Memulai?",
+    "slide6Description": "Kamu sudah siap untuk memulai perjalananmu. Klik tombol di bawah untuk menutup tutorial ini dan mulai menjelajah.",
+    "closeButton": "Memulai"
+  },
+  "HowPage": {
+    "title": "Ubah Profil X-mu menjadi Koleksi NFT",
+    "intro": "Pernah ingin memberi penggemar cara unik untuk mendukungmu? Layanan ini mengubah profil X-mu menjadi dukungan kriptografi yang dapat dimiliki oleh pengikutmu. Ini adalah cara sederhana untuk menerima penghargaan dalam mata uang kripto, tanpa memerlukan keahlian teknis apa pun.",
+    "autoCreation": "Layanan ini secara otomatis menggunakan ikon, spanduk, dan bio X-mu yang ada untuk membuat NFT. Tidak perlu mendesain sesuatu yang baru!",
+    "whatYouNeedTitle": "Apa yang Kamu Butuhkan",
+    "whatYouNeed": "Profil X yang aktif (untuk kamu atau merekmu).",
+    "howItWorksTitle": "Cara Kerjanya: 3 Langkah Sederhana",
+    "step1Title": "Langkah 1: Pratinjau NFT-mu",
+    "step1_1": "Buka halaman teratas layanan ini.",
+    "step1_2": "Masukkan pegangan X-mu (misalnya, @namaanda).",
+    "step1_3": "Klik \"Pratinjau Profil\" untuk melihat seperti apa tampilan NFT-mu.",
+    "step1_4": "Periksa apakah ikon, spanduk, dan bio-mu sudah benar.",
+    "step2Title": "Langkah 2: Tautkan Dompet & Profil X-mu",
+    "step2_1": "Klik \"Hubungkan Dompet\" dan masuk dengan akun sosial pilihanmu.",
+    "step2_2": "Layanan ini akan memberikan alamat dompet yang unik. Klik tombol \"Salin\".",
+    "step2_3": "Buka pengaturan profil X-mu dan tempel alamat ini ke bio-mu. Simpan perubahan.",
+    "step3Title": "Langkah 3: Luncurkan NFT-mu",
+    "step3_1": "Kembali ke layanan ini dan klik \"Konfirmasi\".",
+    "step3_2": "Selesai! Kami akan membuat koleksi NFT-mu dan mengirimkan yang pertama (#0) ke dompetmu.",
+    "step3_3": "Bagikan tautan pribadi kamu (misalnya, https://aq.life/nama-profil-anda) dengan penggemar kamu agar mereka dapat mulai mengoleksi!"
+  }
+}

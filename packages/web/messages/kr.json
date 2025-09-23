@@ -1,0 +1,210 @@
+{
+  "Index": {
+    "title": "좋아하는 것을 응원하고 NFT를 만드세요",
+    "description": "응원하고 싶은 사람의 X 사용자 이름을 입력하여 지원하세요.",
+    "receiveLogs": "수신 기록",
+    "supportLogs": "지원 기록",
+    "previewProfile": "프로필 미리보기"
+  },
+  "Account": {
+    "bannerImageAlt": "배너 이미지",
+    "supportButton": "@{username} 응원하기",
+    "viewButton": "@{username} 보기",
+    "connectWalletToSupport": "@{username}을(를) 지원하려면 지갑 연결하기",
+    "errorTitle": "오류",
+    "errorDescription": "계약 주소 정보가 사용자 이름: @{username}에 대해 찾을 수 없습니다."
+  },
+  "ConfirmSupportDialog": {
+    "error": "오류",
+    "walletNotConnected": "지갑이 연결되지 않았습니다.",
+    "failedToGetTypedData": "유형 데이터 가져오기 실패",
+    "success": "성공!",
+    "nftMinted": "NFT가 발행되었습니다.",
+    "paymentFailed": "결제 실패",
+    "paymentError": "결제를 처리하는 동안 오류가 발생했습니다. 다시 시도해주세요.",
+    "title": "응원 확인",
+    "description": "@{username}님을 응원하려고 합니다. 아래 정보를 확인해주세요.",
+    "confirmButton": "응원 확인",
+    "cancelButton": "취소"
+  },
+  "Tokens": {
+    "title": "지원 가능한 토큰",
+    "description": "토큰을 선택하여 잔액 및 상세 정보를 확인하세요.",
+    "name": "이름",
+    "symbol": "심볼",
+    "balance": "잔액"
+  },
+  "ValueDialog": {
+    "title": "응원 금액",
+    "description": "@{username}에게 얼마를 지원하시겠습니까?",
+    "balance": "잔액: {balance}",
+    "max": "최대",
+    "confirm": "확인",
+    "close": "닫기"
+  },
+  "MessageButton": {
+    "sendMessage": "메시지 보내기",
+    "messageSent": "메시지 전송 완료"
+  },
+  "NFTPage": {
+    "tokenId": "토큰 ID: {tokenId}",
+    "owner": "소유자",
+    "description": "설명",
+    "value": "응원 금액",
+    "creatorAddress": "생성자 주소",
+    "supportMore": "@{username}님에게 더 응원하기"
+  },
+  "PreviewContent": {
+    "copied": "복사되었습니다!",
+    "addressCopied": "주소가 클립보드에 복사되었습니다.",
+    "copyFailed": "복사 실패",
+    "couldNotCopyAddress": "주소를 복사할 수 없습니다.",
+    "bannerImageAlt": "배너 이미지",
+    "areYouUsername": "당신은 @{username} 님인가요?",
+    "deployInstruction": "NFT 스마트 컨트랙트를 배포하려면 이 지갑 주소를 X 프로필 설명에 추가해주세요.",
+    "confirmProceed": "추가한 후 확인을 눌러 계속 진행해주세요.",
+    "achtung": "주의:",
+    "ensureDetails": "프로필 상세 정보(이름, 설명, 아이콘, 배너)가 정확하고 적절한지 확인해주세요. 이 정보는 블록체인에 영구적으로 저장되며 변경할 수 없습니다.",
+    "confirm": "확인"
+  },
+  "VerifyPage": {
+    "noExifComment": "EXIF 사용자 주석을 찾을 수 없습니다.",
+    "errorProcessingFile": "오류: {message}",
+    "onlyJpegAllowed": "JPEG 파일만 허용됩니다.",
+    "title": "JPEG 파일 확인",
+    "dropFiles": "여기에 JPEG 파일을 드래그하세요...",
+    "dragOrClick": "여기에 JPEG 파일을 끌어다 놓거나 파일을 선택하려면 클릭해주세요.",
+    "fileName": "파일명",
+    "size": "크기(바이트)",
+    "type": "유형",
+    "verified": "확인됨",
+    "message": "메시지",
+    "signerAddress": "서명자 주소",
+    "error": "오류",
+    "yes": "예",
+    "no": "아니요",
+    "notAvailable": "해당 없음"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "이용 약관",
+    "privacy": "개인 정보 보호"
+  },
+  "Header": {
+    "loading": "지갑 로딩 중...",
+    "notConnected": "지갑이 연결되지 않았습니다.",
+    "title": "aq Mint",
+    "connectWallet": "지갑 연결"
+  },
+  "ConnectWalletDialog": {
+    "title": "지갑 연결",
+    "description": "로그인 대화 상자가 열리고 있습니다. 선호하는 소셜 계정을 선택하여 지갑을 연결해주세요.",
+    "connect": "연결하세요."
+  },
+  "DisconnectWalletDialog": {
+    "title": "지갑 연결 해제",
+    "description": "지갑 연결을 해제하시겠습니까?",
+    "cancel": "취소",
+    "disconnect": "연결 해제"
+  },
+  "ErrorDialog": {
+    "close": "닫아"
+  },
+  "MessageDialog": {
+    "connectWallet": "지갑을 먼저 연결해주세요.",
+    "title": "메시지 카드 보내기",
+    "description": "NFT 생성자에게 메시지를 보내세요.",
+    "message": "메시지",
+    "placeholder": "여기에 메시지를 입력하세요.",
+    "send": "메시지 카드 보내기",
+    "confirmTitle": "메시지 확인",
+    "confirmDescription": "이 메시지를 전송하시겠습니까?",
+    "cancel": "취소",
+    "confirmSend": "전송 확인"
+  },
+  "ReceiveLogs": {
+    "supporter": "응원자",
+    "tokenId": "토큰 ID",
+    "value": "응원 금액",
+    "mintedAt": "발행일",
+    "timestamp": "타임스탬프",
+    "message": "메시지",
+    "reply": "답장",
+    "transaction": "거래",
+    "alreadyReplied": "이미 답장했습니다.",
+    "view": "보기",
+    "previous": "이전",
+    "next": "다음",
+    "page": "페이지",
+    "of": "중"
+  },
+  "ReplyDialog": {
+    "connectWallet": "먼저 지갑을 연결해주세요.",
+    "enterMessage": "메시지를 입력해주세요.",
+    "failedToSend": "답장을 전송하지 못했습니다. 다시 시도해주세요.",
+    "replyToMessage": "이 메시지에 답장하기",
+    "title": "메시지 답장하기",
+    "yourReply": "내 답장",
+    "placeholder": "여기에 답장을 입력하세요.",
+    "sending": "전송 중...",
+    "sendReply": "답장 보내기",
+    "confirmTitle": "답장 확인",
+    "confirmDescription": "이 답장을 전송하시겠습니까?",
+    "cancel": "취소",
+    "confirmSend": "전송 확인"
+  },
+  "SupportLogs": {
+    "noReplyCard": "이 토큰에 대한 답장 카드를 찾을 수 없습니다.",
+    "accountSupported": "응원한 계정",
+    "tokenId": "토큰 ID",
+    "value": "응원 금액",
+    "mintedAt": "발행일",
+    "timestamp": "타임스탬프",
+    "message": "메시지",
+    "reply": "답장",
+    "transaction": "거래",
+    "download": "다운로드",
+    "notYet": "아직",
+    "view": "보기",
+    "previous": "이전",
+    "next": "다음",
+    "page": "페이지",
+    "of": "중"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "좋아하는 사람들을 응원하세요",
+    "slide1Description": "독특한 NFT를 발행하여 감사의 마음을 표현하세요. 좋아하는 사람은 즉시 당신의 응원을 받게 될 것입니다.",
+    "slide2Title": "유연한 결제",
+    "slide2Description": "보유하고 있는 모든 토큰을 사용하여 NFT를 발행하세요. 우리는 당신이 좋아하는 사람을 위해 자동으로 USDt로 변환을 처리합니다.",
+    "slide3Title": "독특한 NFT 받기",
+    "slide3Description": "당신의 응원에 대한 영구적인 증거로 독특한 암호화 보증을 받으세요.",
+    "slide4Title": "개인 메시지 보내기",
+    "slide4Description": "NFT에 개인 메시지를 첨부하고 좋아하는 사람과 직접 연결하세요.",
+    "slide5Title": "답장 받기",
+    "slide5Description": "좋아하는 사람이 당신의 메시지에 답장할 수 있습니다. 그런 다음 전체 대화를 검증 가능한 이미지로 다운로드하여 상호 작용을 영원히 기록할 수 있습니다.",
+    "slide6Title": "시작할 준비가 되셨나요?",
+    "slide6Description": "이제 여정을 시작할 준비가 되었습니다. 이 튜토리얼을 닫고 탐색을 시작하려면 아래 버튼을 클릭하세요.",
+    "closeButton": "시작하기"
+  },
+  "HowPage": {
+    "title": "X 프로필을 NFT 컬렉션으로 바꾸세요",
+    "intro": "팬들에게 당신을 지원할 독특한 방법을 제공하고 싶었던 적이 있습니까? 이 서비스는 당신의 X 프로필을 팔로워들이 소유할 수 있는 암호화 보증으로 변환합니다. 기술적인 기술 없이 암호화폐로 감사를 받는 간단한 방법입니다.",
+    "autoCreation": "이 서비스는 기존 X 아이콘, 배너 및 약력을 자동으로 사용하여 NFT를 만듭니다. 새로운 것을 디자인할 필요가 없습니다!",
+    "whatYouNeedTitle": "필요한 것",
+    "whatYouNeed": "활성 X 프로필 (당신 또는 당신의 브랜드를 위한).",
+    "howItWorksTitle": "작동 방식: 3가지 간단한 단계",
+    "step1Title": "1단계: NFT 미리보기",
+    "step1_1": "이 서비스 상단 페이지로 이동하세요.",
+    "step1_2": "X 핸들(예: @yourname)을 입력하세요.",
+    "step1_3": "NFT가 어떻게 보일지 보려면 \"프로필 미리보기\"를 클릭하세요.",
+    "step1_4": "아이콘, 배너 및 약력이 올바른지 확인하세요.",
+    "step2Title": "2단계: 지갑 및 X 프로필 연결",
+    "step2_1": "\"지갑 연결\"을 클릭하고 선호하는 소셜 계정으로 로그인하세요.",
+    "step2_2": "서비스에서 고유한 지갑 주소를 제공합니다. \"복사\" 버튼을 클릭하세요.",
+    "step2_3": "X 프로필 설정으로 이동하여 이 주소를 약력에 붙여넣으세요. 변경 사항을 저장하세요.",
+    "step3Title": "3단계: NFT 출시",
+    "step3_1": "이 서비스로 돌아와서 \"확인\"을 클릭하세요.",
+    "step3_2": "그게 다입니다! 우리는 당신의 NFT 컬렉션을 만들고 첫 번째(#0)를 당신의 지갑으로 보낼 것입니다.",
+    "step3_3": "팬들이 수집을 시작할 수 있도록 개인 링크(예: https://aq.life/your-profile-name)를 공유하세요!"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "Index": {
+    "title": "NFTをミントして推しを応援しよう",
+    "description": "推しのXのユーザー名を入力してください。",
+    "receiveLogs": "受け取り履歴",
+    "supportLogs": "応援履歴",
+    "depositLogs": "入金履歴",
+    "depositedLogs": "受け取った入金",
+    "previewProfile": "プロフィールをプレビュー"
+  },
+  "Account": {
+    "bannerImageAlt": "バナー画像",
+    "supportButton": "@{username}を応援する",
+    "viewButton": "@{username}を表示",
+    "connectWalletToSupport": "ウォレットを接続して@{username}をサポート",
+    "errorTitle": "エラー",
+    "errorDescription": "ユーザー名：@{username} のための契約アドレスが見つかりませんでした。"
+  },
+  "ConfirmSupportDialog": {
+    "error": "エラー",
+    "walletNotConnected": "ウォレットが接続されていません。",
+    "failedToGetTypedData": "型指定されたデータの取得に失敗しました。",
+    "success": "成功しました！",
+    "nftMinted": "NFTがミントされました。",
+    "paymentFailed": "支払いに失敗しました",
+    "paymentError": "お支払いの処理中にエラーが発生しました。もう一度お試しください。",
+    "title": "応援の確認",
+    "description": "@{username}を応援しようとしています。以下の詳細を確認してください。",
+    "confirmButton": "応援を確定する",
+    "cancelButton": "キャンセル"
+  },
+  "Tokens": {
+    "title": "対応トークン",
+    "description": "トークンを選択して残高と詳細を表示します。",
+    "name": "名前",
+    "symbol": "シンボル",
+    "balance": "残高"
+  },
+  "ValueDialog": {
+    "title": "価値",
+    "description": "@{username}をサポートする金額は？",
+    "balance": "残高: {balance}",
+    "max": "最大",
+    "confirm": "確定",
+    "close": "閉じる"
+  },
+  "MessageButton": {
+    "sendMessage": "メッセージを送信",
+    "messageSent": "メッセージ送信済み"
+  },
+  "NFTPage": {
+    "tokenId": "トークンID: {tokenId}",
+    "owner": "所有者",
+    "description": "説明",
+    "value": "金額",
+    "creatorAddress": "作成者のアドレス",
+    "supportMore": "@{username}をもっと応援する"
+  },
+  "PreviewContent": {
+    "copied": "コピーしました！",
+    "addressCopied": "アドレスをクリップボードにコピーしました。",
+    "copyFailed": "コピーに失敗しました",
+    "couldNotCopyAddress": "アドレスをコピーできませんでした。",
+    "bannerImageAlt": "バナー画像",
+    "areYouUsername": "あなたは@{username}ですか？",
+    "deployInstruction": "NFTスマートコントラクトをデプロイするには、このウォレットアドレスをXプロフィールの説明に追加してください:",
+    "confirmProceed": "追加したら、[確認]を押して続行してください。",
+    "achtung": "注意:",
+    "ensureDetails": "プロフィールの詳細（名前、説明、アイコン、バナー）が正確で適切であることを確認してください。この情報はブロックチェーンに永久に保存され、変更することはできません。",
+    "confirm": "確認"
+  },
+  "VerifyPage": {
+    "noExifComment": "EXIF UserCommentが見つかりません。",
+    "errorProcessingFile": "エラー: {message}",
+    "onlyJpegAllowed": "JPEGファイルのみが許可されています。",
+    "title": "JPEGファイルの検証",
+    "dropFiles": "ここにJPEGファイルをドロップしてください...",
+    "dragOrClick": "ここにJPEGファイルをドラッグアンドドロップするか、クリックしてファイルを選択してください",
+    "fileName": "ファイル名",
+    "size": "サイズ（バイト）",
+    "type": "種類",
+    "verified": "検証済み",
+    "message": "メッセージ",
+    "signerAddress": "署名者のアドレス",
+    "error": "エラー",
+    "yes": "はい",
+    "no": "いいえ",
+    "notAvailable": "N/A"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "利用規約",
+    "privacy": "プライバシー"
+  },
+  "Header": {
+    "loading": "ウォレットを読み込んでいます...",
+    "notConnected": "ウォレットが接続されていません",
+    "title": "aq Mint",
+    "connectWallet": "ウォレットに接続する"
+  },
+  "ConnectWalletDialog": {
+    "title": "ウォレットに接続する",
+    "description": "サインインダイアログが開きます。お好みのソーシャルアカウントを選択して、ウォレットを接続してください。",
+    "connect": "接続"
+  },
+  "DisconnectWalletDialog": {
+    "title": "ウォレットから切断",
+    "description": "本当にウォレットを切断しますか？",
+    "cancel": "キャンセル",
+    "disconnect": "切断する"
+  },
+  "ErrorDialog": {
+    "close": "閉じる"
+  },
+  "MessageDialog": {
+    "connectWallet": "ウォレットを接続してください",
+    "title": "メッセージカードを送信",
+    "description": "NFT作成者にメッセージを送信します。",
+    "message": "メッセージ",
+    "placeholder": "ここにメッセージを入力してください。",
+    "send": "メッセージカードを送信",
+    "confirmTitle": "メッセージの確認",
+    "confirmDescription": "このメッセージを送信してもよろしいですか？",
+    "cancel": "キャンセル",
+    "confirmSend": "送信を確定"
+  },
+  "ReceiveLogs": {
+    "supporter": "応援者",
+    "tokenId": "トークンID",
+    "value": "価値",
+    "mintedAt": "ミント日時",
+    "timestamp": "タイムスタンプ",
+    "message": "メッセージ",
+    "reply": "返信",
+    "transaction": "トランザクション",
+    "alreadyReplied": "返信済み",
+    "view": "表示",
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ",
+    "of": "の"
+  },
+  "ReplyDialog": {
+    "connectWallet": "最初にウォレットを接続してください。",
+    "enterMessage": "メッセージを入力してください。",
+    "failedToSend": "返信の送信に失敗しました。もう一度お試しください。",
+    "replyToMessage": "このメッセージに返信する",
+    "title": "メッセージに返信",
+    "yourReply": "あなたの返信",
+    "placeholder": "ここに返信を入力してください。",
+    "sending": "送信中...",
+    "sendReply": "返信を送信",
+    "confirmTitle": "返信の確認",
+    "confirmDescription": "この返信を送信してもよろしいですか？",
+    "cancel": "キャンセル",
+    "confirmSend": "送信を確定"
+  },
+  "SupportLogs": {
+    "noReplyCard": "このトークンの返信カードが見つかりません。",
+    "accountSupported": "応援されたアカウント",
+    "tokenId": "トークンID",
+    "value": "価値",
+    "mintedAt": "ミント日時",
+    "timestamp": "タイムスタンプ",
+    "message": "メッセージ",
+    "reply": "返信",
+    "transaction": "トランザクション",
+    "download": "ダウンロード",
+    "notYet": "まだです",
+    "view": "表示",
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ",
+    "of": "の"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "推しを応援する",
+    "slide1Description": "ユニークなNFTをミントして感謝の気持ちを表しましょう。推しはすぐにあなたのサポートを受け取ります。",
+    "slide2Title": "柔軟な支払い",
+    "slide2Description": "対応トークンであれば、何でもいくらでも大丈夫です。支払って、NFTをミントしましょう。推しにはUSDtでリアルタイム送金されます。",
+    "slide3Title": "ユニークなNFTを受け取る",
+    "slide3Description": "あなたのサポートの永続的な証として、NFTを手に入れましょう。",
+    "slide4Title": "パーソナルメッセージを送信する",
+    "slide4Description": "NFTにパーソナルメッセージを添付して、推しと直接つながりましょう。",
+    "slide5Title": "返信をもらう",
+    "slide5Description": "推しはあなたのメッセージに返信できます。その後、会話全体を検証可能な画像としてダウンロードし、あなたのやり取りを永遠に記録できます。",
+    "slide6Title": "始める準備はできましたか？",
+    "slide6Description": "旅を始める準備が整いました。下のボタンをクリックしてこのチュートリアルを閉じ、探索を始めましょう。",
+    "closeButton": "始める"
+  },
+  "HowPage": {
+    "title": "あなたのXプロフィールを暗号学的裏書に変えましょう",
+    "intro": "ファンにあなたを応援するユニークな方法を提供したいと思ったことはありませんか？このサービスは、あなたのXプロフィールをフォロワーが所有できる暗号学的裏書（NFT）に変換します。技術的なスキルは一切不要で、暗号資産で感謝を受け取る簡単な方法です。",
+    "autoCreation": "このサービスは、既存のXのアイコン、バナー、自己紹介を自動的に使用してNFTを作成します。新しいデザインを作成する必要はありません！",
+    "whatYouNeedTitle": "必要なもの",
+    "whatYouNeed": "アクティブなXプロフィール（あなたまたはあなたのブランドのもの）。",
+    "howItWorksTitle": "仕組み：3つの簡単なステップ",
+    "step1Title": "ステップ1：NFTをプレビューする",
+    "step1_1": "このサービスのトップページにアクセスします。",
+    "step1_2": "あなたのXハンドル（例：@yourname）を入力します。",
+    "step1_3": "「プロフィールをプレビュー」をクリックして、NFTがどのように見えるかを確認します。",
+    "step1_4": "アイコン、バナー、自己紹介が正しいことを確認します。",
+    "step2Title": "ステップ2：ウォレットとXプロフィールをリンクする",
+    "step2_1": "「ウォレットを接続」をクリックし、お好みのソーシャルアカウントでサインインします。",
+    "step2_2": "サービスがユニークなウォレットアドレスを提供します。「コピー」ボタンをクリックします。",
+    "step2_3": "Xプロフィールの設定に移動し、このアドレスを自己紹介に貼り付けて変更を保存します。",
+    "step3Title": "ステップ3：NFTをローンチする",
+    "step3_1": "このサービスに戻り、「確認」をクリックします。",
+    "step3_2": "これで完了です！私たちはあなたのNFTコレクションを作成し、最初の1つ（#0）をあなたのウォレットに送信します。",
+    "step3_3": "あなたの個人リンク（例：https://aq.life/your-profile-name）をファンと共有して、彼らが収集を開始できるようにしましょう！"
+  },
+  "DepositLogs": {
+    "favorite": "推し",
+    "owner": "支援者",
+    "value": "金額",
+    "share": "シェア (%)",
+    "mintedAt": "タイムスタンプ",
+    "transaction": "トランザクション",
+    "view": "表示",
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ",
+    "of": "の"
+  },
+  "DepositedLogs": {
+    "favorite": "推し",
+    "owner": "支援者",
+    "value": "金額",
+    "share": "シェア (%)",
+    "mintedAt": "タイムスタンプ",
+    "transaction": "トランザクション",
+    "view": "表示",
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ",
+    "of": "の"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Index": {
+    "title": "Unterstütze deine Favoriten, präge ein NFT",
+    "description": "Gib den X-Benutzernamen deines Favoriten ein, um ihn zu unterstützen.",
+    "receiveLogs": "Eingehende Protokolle",
+    "supportLogs": "Support-Protokolle",
+    "previewProfile": "Profilvorschau"
+  },
+  "Account": {
+    "bannerImageAlt": "Bannerbild",
+    "supportButton": "@{username} unterstützen",
+    "viewButton": "@{username} ansehen",
+    "connectWalletToSupport": "Wallet verbinden, um @{username} zu unterstützen",
+    "errorTitle": "Fehler",
+    "errorDescription": "Keine Vertragsadresse für Benutzername: @{username} gefunden."
+  },
+  "ConfirmSupportDialog": {
+    "error": "Fehler",
+    "walletNotConnected": "Wallet nicht verbunden.",
+    "failedToGetTypedData": "Die benötigten Daten konnten nicht abgerufen werden.",
+    "success": "Erfolgreich!",
+    "nftMinted": "NFT wurde geprägt.",
+    "paymentFailed": "Zahlung fehlgeschlagen",
+    "paymentError": "Bei der Verarbeitung deiner Zahlung ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+    "title": "Unterstützung bestätigen",
+    "description": "Du bist dabei, @{username} zu unterstützen. Bitte bestätige die folgenden Details.",
+    "confirmButton": "Unterstützung bestätigen",
+    "cancelButton": "Abbrechen"
+  },
+  "Tokens": {
+    "title": "Unterstützte Token",
+    "description": "Wähle einen Token aus, um deinen Kontostand und weitere Details anzuzeigen.",
+    "name": "Name",
+    "symbol": "Symbol",
+    "balance": "Kontostand"
+  },
+  "ValueDialog": {
+    "title": "Wert",
+    "description": "Wie viel möchtest du @{username} unterstützen?",
+    "balance": "Kontostand: {balance}",
+    "max": "Maximalwert",
+    "confirm": "Bestätigen",
+    "close": "Schließen"
+  },
+  "MessageButton": {
+    "sendMessage": "Nachricht senden",
+    "messageSent": "Nachricht gesendet"
+  },
+  "NFTPage": {
+    "tokenId": "Token-ID: {tokenId}",
+    "owner": "Besitzer",
+    "description": "Beschreibung",
+    "value": "Wert",
+    "creatorAddress": "Adresse des Erstellers",
+    "supportMore": "@{username} mehr unterstützen"
+  },
+  "PreviewContent": {
+    "copied": "Kopiert!",
+    "addressCopied": "Adresse in die Zwischenablage kopiert.",
+    "copyFailed": "Kopieren fehlgeschlagen",
+    "couldNotCopyAddress": "Adresse konnte nicht kopiert werden.",
+    "bannerImageAlt": "Bannerbild",
+    "areYouUsername": "Bist du @{username}?",
+    "deployInstruction": "Um deinen NFT-Smart-Vertrag zu deployen, füge diese Wallet-Adresse zur Beschreibung deines X-Profils hinzu:",
+    "confirmProceed": "Nachdem du es hinzugefügt hast, drücke auf „Bestätigen“, um fortzufahren.",
+    "achtung": "Achtung:",
+    "ensureDetails": "Stelle sicher, dass deine Profildetails (Name, Beschreibung, Symbol, Banner) korrekt und angemessen sind. Diese Informationen werden dauerhaft in der Blockchain gespeichert und können nicht geändert werden.",
+    "confirm": "Bestätigen"
+  },
+  "VerifyPage": {
+    "noExifComment": "Kein EXIF-Benutzerkommentar gefunden.",
+    "errorProcessingFile": "Fehler: {message}",
+    "onlyJpegAllowed": "Nur JPEG-Dateien sind erlaubt.",
+    "title": "JPEG-Dateien überprüfen",
+    "dropFiles": "Legen Sie die JPEG-Dateien hier ab...",
+    "dragOrClick": "Ziehe einige JPEG-Dateien hierher oder klicke, um Dateien auszuwählen",
+    "fileName": "Dateiname",
+    "size": "Größe (Bytes)",
+    "type": "Typ",
+    "verified": "Verifiziert",
+    "message": "Nachricht",
+    "signerAddress": "Adresse des Unterzeichners",
+    "error": "Fehler",
+    "yes": "Ja",
+    "no": "Nein",
+    "notAvailable": "N/A"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "Bedingungen",
+    "privacy": "Datenschutz"
+  },
+  "Header": {
+    "loading": "Wallet wird geladen...",
+    "notConnected": "Wallet nicht verbunden",
+    "title": "aq Mint",
+    "connectWallet": "Wallet verbinden"
+  },
+  "ConnectWalletDialog": {
+    "title": "Verbinde Wallet",
+    "description": "Ein Anmeldedialog öffnet sich jetzt. Bitte wählen Sie Ihr bevorzugtes soziales Konto, um eine Wallet zu verbinden.",
+    "connect": "Verbinde"
+  },
+  "DisconnectWalletDialog": {
+    "title": "Wallet trennen",
+    "description": "Bist du sicher, dass du deine Wallet trennen möchtest?",
+    "cancel": "Abbrechen",
+    "disconnect": "Trennen"
+  },
+  "ErrorDialog": {
+    "close": "Schließen"
+  },
+  "MessageDialog": {
+    "connectWallet": "Bitte verbinde dein Wallet",
+    "title": "Nachrichtenkarte senden",
+    "description": "Sende eine Nachricht an den NFT-Ersteller.",
+    "message": "Nachricht",
+    "placeholder": "Gib hier deine Nachricht ein.",
+    "send": "Nachrichtenkarte senden",
+    "confirmTitle": "Nachricht bestätigen",
+    "confirmDescription": "Möchtest du diese Nachricht wirklich senden?",
+    "cancel": "Abbrechen",
+    "confirmSend": "Senden bestätigen"
+  },
+  "ReceiveLogs": {
+    "supporter": "Unterstützer",
+    "tokenId": "Token-ID",
+    "value": "Wert",
+    "mintedAt": "Geprägt am",
+    "timestamp": "Zeitstempel",
+    "message": "Nachricht",
+    "reply": "Antworten",
+    "transaction": "Transaktion",
+    "alreadyReplied": "Bereits geantwortet",
+    "view": "Anzeigen",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "page": "Seite",
+    "of": "von"
+  },
+  "ReplyDialog": {
+    "connectWallet": "Bitte verbinde zuerst dein Wallet.",
+    "enterMessage": "Bitte gib eine Nachricht ein.",
+    "failedToSend": "Antwort konnte nicht gesendet werden. Bitte versuche es erneut.",
+    "replyToMessage": "Auf diese Nachricht antworten",
+    "title": "Auf Nachricht antworten",
+    "yourReply": "Deine Antwort",
+    "placeholder": "Gib hier deine Antwort ein.",
+    "sending": "Wird gesendet...",
+    "sendReply": "Antwort senden",
+    "confirmTitle": "Antwort bestätigen",
+    "confirmDescription": "Möchtest du diese Antwort wirklich senden?",
+    "cancel": "Abbrechen",
+    "confirmSend": "Senden bestätigen"
+  },
+  "SupportLogs": {
+    "noReplyCard": "Für diesen Token wurde keine Antwortkarte gefunden.",
+    "accountSupported": "Unterstütztes Konto",
+    "tokenId": "Token-ID",
+    "value": "Wert",
+    "mintedAt": "Geprägt am",
+    "timestamp": "Zeitstempel",
+    "message": "Nachricht",
+    "reply": "Antworten",
+    "transaction": "Transaktion",
+    "download": "Herunterladen",
+    "notYet": "Noch nicht",
+    "view": "Anzeigen",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "page": "Seite",
+    "of": "von"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "Unterstütze deine Lieblingsmenschen",
+    "slide1Description": "Zeige deine Wertschätzung, indem du ein einzigartiges NFT prägst. Deine Lieblingsperson erhält deine Unterstützung sofort.",
+    "slide2Title": "Flexible Zahlungen",
+    "slide2Description": "Präge NFTs mit jedem Token, den du besitzt. Wir übernehmen die Umrechnung in USDt für deine Lieblingsperson automatisch.",
+    "slide3Title": "Erhalte ein einzigartiges NFT",
+    "slide3Description": "Erhalte eine einzigartige kryptografische Bestätigung als dauerhaften Nachweis deiner Unterstützung.",
+    "slide4Title": "Sende eine persönliche Nachricht",
+    "slide4Description": "Füge deinem NFT eine persönliche Nachricht bei und verbinde dich direkt mit deiner Lieblingsperson.",
+    "slide5Title": "Erhalte eine Antwort",
+    "slide5Description": "Deine Lieblingsperson kann auf deine Nachricht antworten. Du kannst dann das gesamte Gespräch als verifizierbares Bild herunterladen und so eure Interaktion für immer festhalten.",
+    "slide6Title": "Bereit zum Start?",
+    "slide6Description": "Du bist bereit, deine Reise zu beginnen. Klicke auf die Schaltfläche unten, um dieses Tutorial zu schließen und mit der Erkundung zu beginnen.",
+    "closeButton": "Loslegen"
+  },
+  "HowPage": {
+    "title": "Verwandle dein X-Profil in eine NFT-Sammlung",
+    "intro": "Wolltest du deinen Fans schon immer eine einzigartige Möglichkeit geben, dich zu unterstützen? Dieser Service verwandelt dein X-Profil in eine kryptografische Bestätigung, die deine Follower besitzen können. Es ist eine einfache Möglichkeit, Wertschätzung in Kryptowährung zu erhalten, ohne technische Kenntnisse zu benötigen.",
+    "autoCreation": "Dieser Service verwendet automatisch dein vorhandenes X-Symbol, Banner und deine Biografie, um das NFT zu erstellen. Du musst nichts Neues entwerfen!",
+    "whatYouNeedTitle": "Was du benötigst",
+    "whatYouNeed": "Ein aktives X-Profil (für dich oder deine Marke).",
+    "howItWorksTitle": "So funktioniert's: 3 einfache Schritte",
+    "step1Title": "Schritt 1: Vorschau deines NFTs",
+    "step1_1": "Gehe zur Startseite dieses Dienstes.",
+    "step1_2": "Gib deinen X-Handle ein (z. B. @yourname).",
+    "step1_3": "Klicke auf „Profilvorschau“, um zu sehen, wie dein NFT aussehen wird.",
+    "step1_4": "Überprüfe, ob dein Symbol, dein Banner und deine Biografie korrekt sind.",
+    "step2Title": "Schritt 2: Verknüpfe dein Wallet & X-Profil",
+    "step2_1": "Klicke auf „Wallet verbinden“ und melde dich mit deinem bevorzugten sozialen Konto an.",
+    "step2_2": "Der Dienst gibt dir eine eindeutige Wallet-Adresse. Klicke auf die Schaltfläche „Kopieren“.",
+    "step2_3": "Gehe zu deinen X-Profileinstellungen und füge diese Adresse in deine Biografie ein. Speichere die Änderungen.",
+    "step3Title": "Schritt 3: Starte dein NFT",
+    "step3_1": "Komm zurück zu diesem Dienst und klicke auf „Bestätigen“.",
+    "step3_2": "Das ist es! Wir erstellen deine NFT-Sammlung und senden die allererste (#0) an dein Wallet.",
+    "step3_3": "Teile deinen persönlichen Link (z. B. https://aq.life/your-profile-name) mit deinen Fans, damit sie mit dem Sammeln beginnen können!"
+  }
+}

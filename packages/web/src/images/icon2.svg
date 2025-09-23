@@ -1,0 +1,52 @@
+<svg width="676" height="676" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <rect width="676" height="676" rx="100" fill="#CCC" />
+    <path transform="scale(0.5)"
+        d="M227.034 142.007c16.17.205 31.182 5.208 43.682 13.649C274.85 147.551 283.277 142 293 142c13.807 0 25 11.193 25 25v273c0 13.807-11.193 25-25 25-9.723 0-18.149-5.551-22.283-13.656C257.951 459.965 242.564 465 226 465h-14c-44.183 0-80-35.817-80-80V222c0-43.838 35.26-79.439 78.966-79.993L212 142h14l1.034.007zM212 192c-16.569 0-30 13.431-30 30v163c0 16.569 13.431 30 30 30h14c16.569 0 30-13.431 30-30V222c0-16.569-13.431-30-30-30h-14zM444.034 142.007c16.17.205 31.182 5.208 43.682 13.649C491.85 147.551 500.277 142 510 142c13.807 0 25 11.193 25 25v361c0 13.807-11.193 25-25 25s-25-11.193-25-25v-74.899C472.793 460.645 458.405 465 443 465h-14c-44.183 0-80-35.817-80-80V222c0-43.838 35.26-79.439 78.966-79.993L429 142h14l1.034.007zM429 192c-16.569 0-30 13.431-30 30v163c0 16.569 13.431 30 30 30h14c16.569 0 30-13.431 30-30V222c0-16.569-13.431-30-30-30h-14z"
+        fill="#fff" />
+
+    <foreignObject x="0" y="0" width="676" height="676">
+
+        <div xmlns="http://www.w3.org/1999/xhtml"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:end;">
+            <div class="captions">
+                <div class="xl">___HERE___ USDt</div>
+                <span class="sm">supported by ___HERE___</span>
+                <span class="sm">for @___HERE___</span>
+                <span class="sm">___HERE___</span>
+                <span class="sm">#___HERE___</span>
+                <span class="xs">minted at ___HERE___ with aq Mint</span>
+            </div>
+        </div>
+        <style>
+            .captions {
+                white-space: nowrap;
+                background: rgba(0, 0, 0, 0.4);
+                color: #FFC;
+                font-family: Helvetica, Arial, sans-serif;
+                text-shadow: 1px 1px 2px black;
+                padding: 20px 20px 5px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .xl {
+                font-size: 2.5rem;
+                line-height: 3rem;
+                font-weight: bold;
+            }
+
+            .sm {
+                font-size: 1rem;
+                line-height: 1.6rem;
+            }
+
+            .xs {
+                font-size: 0.6rem;
+                line-height: 1rem;
+            }
+        </style>
+    </foreignObject>
+</svg>

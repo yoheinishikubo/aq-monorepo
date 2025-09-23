@@ -1,0 +1,375 @@
+{
+  "Index": {
+    "title": "Mint NFTs to Support Your Favs",
+    "description": "Enter your fav's X username to show your support.",
+    "receiveLogs": "Received Supports",
+    "supportLogs": "Your Supports",
+    "depositLogs": "Your Deposits",
+    "depositedLogs": "Received Deposits",
+    "previewProfile": "Preview Profile"
+  },
+  "Account": {
+    "bannerImageAlt": "Banner Image",
+    "supportButton": "Support @{username}",
+    "vaultButton": "aq Vault for @{username}",
+    "viewButton": "View @{username}'s Profile",
+    "connectWalletToSupport": "Connect Wallet to Support @{username}",
+    "errorTitle": "Error",
+    "errorDescription": "No contract address found for username: @{username}"
+  },
+  "ConfirmSupportDialog": {
+    "error": "Error",
+    "walletNotConnected": "Please connect your wallet.",
+    "failedToGetTypedData": "Failed to retrieve transaction details.",
+    "success": "Success!",
+    "nftMinted": "Your NFT has been minted!",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "An error occurred while processing your payment. Please try again later.",
+    "title": "Confirm Your Support",
+    "description": "You are about to support @{username}. Please review the details below and confirm.",
+    "confirmButton": "Confirm Support",
+    "cancelButton": "Cancel"
+  },
+  "Tokens": {
+    "title": "Supported Tokens",
+    "description": "Select a token to view your balance and details.",
+    "name": "Token Name",
+    "symbol": "Symbol",
+    "balance": "Balance"
+  },
+  "ValueDialog": {
+    "title": "VALUE",
+    "description": "How much will you support @{username}?",
+    "balance": "Balance: {balance}",
+    "max": "Maximum Value",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "MessageButton": {
+    "sendMessage": "Send a Message",
+    "messageSent": "Message Sent!"
+  },
+  "NFTPage": {
+    "tokenId": "Token ID: {tokenId}",
+    "owner": "Owner",
+    "description": "Description",
+    "value": "Value",
+    "creatorAddress": "Creator Address",
+    "supportMore": "Support @{username} Further"
+  },
+  "PreviewContent": {
+    "copied": "Copied!",
+    "addressCopied": "Wallet address copied to clipboard.",
+    "copyFailed": "Copy Failed",
+    "couldNotCopyAddress": "Unable to copy the wallet address.",
+    "bannerImageAlt": "Banner Image",
+    "areYouUsername": "Are you @{username}?",
+    "deployInstruction": "To deploy your NFT smart contract, add this wallet address to your X profile's description:",
+    "confirmProceed": "Once added, press Confirm to proceed.",
+    "achtung": "Achtung:",
+    "ensureDetails": "Please ensure your profile details (name, description, icon, banner) are accurate and appropriate. This information will be permanently stored on the blockchain and cannot be changed.",
+    "confirm": "Confirm"
+  },
+  "VerifyPage": {
+    "noExifComment": "No EXIF UserComment found.",
+    "errorProcessingFile": "Error: {message}",
+    "onlyJpegAllowed": "Only JPEG files are allowed.",
+    "title": "Verify JPEG Files",
+    "dropFiles": "Drop the JPEG files here...",
+    "dragOrClick": "Drag and drop some JPEG files here, or click to select files.",
+    "fileName": "File Name",
+    "size": "Size (bytes)",
+    "type": "Type",
+    "verified": "Verified",
+    "message": "Message",
+    "signerAddress": "Signer Address",
+    "error": "Error",
+    "yes": "Yes",
+    "no": "No",
+    "notAvailable": "N/A"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "Header": {
+    "loading": "Loading wallet...",
+    "notConnected": "Wallet not connected.",
+    "title": "aq Mint",
+    "connectWallet": "Connect Wallet"
+  },
+  "ConnectWalletDialog": {
+    "title": "Connect Wallet",
+    "description": "A sign-in dialog is now opening. Please choose your preferred social account to connect a wallet.",
+    "connect": "Connect"
+  },
+  "DisconnectWalletDialog": {
+    "title": "Disconnect Wallet",
+    "description": "Are you sure you want to disconnect your wallet?",
+    "cancel": "Cancel",
+    "disconnect": "Disconnect"
+  },
+  "ErrorDialog": {
+    "close": "Close"
+  },
+  "MessageDialog": {
+    "connectWallet": "Please connect your wallet first.",
+    "title": "Send a Message Card",
+    "description": "Send a message to the NFT creator.",
+    "message": "Message",
+    "placeholder": "Type your message here...",
+    "send": "Send Message Card",
+    "confirmTitle": "Confirm Message",
+    "confirmDescription": "Are you sure you want to send this message?",
+    "cancel": "Cancel",
+    "confirmSend": "Confirm Send"
+  },
+  "ReceiveLogs": {
+    "supporter": "Supporter",
+    "tokenId": "Token ID",
+    "value": "Value",
+    "mintedAt": "Minted At",
+    "timestamp": "Timestamp",
+    "message": "Message",
+    "reply": "Reply",
+    "transaction": "Transaction",
+    "alreadyReplied": "Already Replied",
+    "view": "View Details",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "ReplyDialog": {
+    "connectWallet": "Please connect your wallet first.",
+    "enterMessage": "Please enter a message.",
+    "failedToSend": "Failed to send reply. Please try again.",
+    "replyToMessage": "Reply to this Message",
+    "title": "Reply to Message",
+    "yourReply": "Your Reply",
+    "placeholder": "Type your reply here...",
+    "sending": "Sending...",
+    "sendReply": "Send Reply",
+    "confirmTitle": "Confirm Reply",
+    "confirmDescription": "Are you sure you want to send this reply?",
+    "cancel": "Cancel",
+    "confirmSend": "Confirm Send"
+  },
+  "SupportLogs": {
+    "noReplyCard": "No reply card found for this token.",
+    "accountSupported": "Account Supported",
+    "tokenId": "Token ID",
+    "value": "Value",
+    "mintedAt": "Minted At",
+    "timestamp": "Timestamp",
+    "message": "Message",
+    "reply": "Reply",
+    "transaction": "Transaction",
+    "download": "Download",
+    "notYet": "Not yet",
+    "view": "View Details",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "DepositLogs": {
+    "favorite": "Account Supported",
+    "owner": "Supporter",
+    "value": "Value",
+    "share": "Share (%)",
+    "mintedAt": "Timestamp",
+    "transaction": "Transaction",
+    "view": "View Details",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "DepositedLogs": {
+    "favorite": "Account Supported",
+    "owner": "Supporter",
+    "value": "Value",
+    "share": "Share (%)",
+    "mintedAt": "Timestamp",
+    "transaction": "Transaction",
+    "view": "View Details",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "Support Your Favorite Creators",
+    "slide1Description": "Show your appreciation by minting a unique NFT. Your favorite creator will receive your support instantly.",
+    "slide2Title": "Flexible Payments",
+    "slide2Description": "Mint NFTs using any token you hold. We handle the conversion to USDt for your favorite creator automatically.",
+    "slide3Title": "Receive a Unique NFT",
+    "slide3Description": "Get a one-of-a-kind cryptographic endorsement as a permanent proof of your support.",
+    "slide4Title": "Send a Personal Message",
+    "slide4Description": "Attach a personal message to your NFT and connect directly with your favorite creator.",
+    "slide5Title": "Get a Reply",
+    "slide5Description": "Your favorite creator can reply to your message. You can then download the entire conversation as a verifiable image, capturing your interaction forever.",
+    "slide6Title": "Ready to Start?",
+    "slide6Description": "You're all set to begin your journey. Click the button below to close this tutorial and start exploring.",
+    "closeButton": "Get Started"
+  },
+  "HowPage": {
+    "title": "Turn Your X Profile into an NFT Collection",
+    "intro": "Ever wanted to give your fans a unique way to support you? This service transforms your X profile into a cryptographic endorsement that your followers can own. It’s a simple way to receive appreciation in cryptocurrency, without needing any technical skills.",
+    "autoCreation": "This service automatically uses your existing X icon, banner, and bio to create the NFT. No need to design anything new!",
+    "whatYouNeedTitle": "What You'll Need",
+    "whatYouNeed": "An active X profile (for you or your brand).",
+    "howItWorksTitle": "How It Works: 3 Simple Steps",
+    "step1Title": "Step 1: Preview Your NFT",
+    "step1_1": "Go to the top page of this service.",
+    "step1_2": "Enter your X handle (e.g., @yourname).",
+    "step1_3": "Click \"Preview Profile\" to see how your NFT will look.",
+    "step1_4": "Check that your icon, banner, and bio are correct.",
+    "step2Title": "Step 2: Link Your Wallet & X Profile",
+    "step2_1": "Click \"Connect Wallet\" and sign in with your preferred social account.",
+    "step2_2": "The service will give you a unique wallet address. Click the “Copy” button.",
+    "step2_3": "Go to your X profile settings and paste this address into your bio. Save the changes.",
+    "step3Title": "Step 3: Launch Your NFT",
+    "step3_1": "Come back to this service and click \"Confirm\".",
+    "step3_2": "That's it! We’ll create your NFT collection and send the very first one (#0) to your wallet.",
+    "step3_3": "Share your personal link (e.g., https://aq.life/your-profile-name) with your fans so they can start collecting!"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Please read these terms of service carefully before using our service.",
+    "date": "Last updated: {lastModifiedDate}",
+    "content": {
+      "1": {
+        "title": "1. Introduction",
+        "texts": {
+          "1": "Welcome to our service. These terms and conditions outline the rules and regulations for the use of our website."
+        }
+      },
+      "2": {
+        "title": "2. Intellectual Property Rights",
+        "texts": {
+          "1": "Other than the content you own, under these terms, we and/or our licensors own all the intellectual property rights and materials contained in this website."
+        }
+      },
+      "3": {
+        "title": "3. Restrictions",
+        "texts": {
+          "1": "You are specifically restricted from all of the following: publishing any website material in any other media; selling, sublicensing and/or otherwise commercializing any website material; publicly performing and/or showing any website material; using this website in any way that is or may be damaging to this website; using this website in any way that impacts user access to this website; using this website contrary to applicable laws and regulations, or in any way may cause harm to the website, or to any person or business entity; engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this website; using this website to engage in any advertising or marketing."
+        }
+      },
+      "4": {
+        "title": "4. Your Content",
+        "texts": {
+          "1": "In these website standard terms and conditions, “your content” shall mean any audio, video text, images or other material you choose to display on this website. By displaying your content, you grant us a non-exclusive, worldwide irrevocable, sub-licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media."
+        }
+      },
+      "5": {
+        "title": "5. No warranties",
+        "texts": {
+          "1": "This website is provided “as is,” with all faults, and we express no representations or warranties, of any kind related to this website or the materials contained on this website. Also, nothing contained on this website shall be interpreted as advising you."
+        }
+      },
+      "6": {
+        "title": "6. Limitation of liability",
+        "texts": {
+          "1": "In no event shall we, nor any of our officers, directors and employees, shall be held liable for anything arising out of or in any way connected with your use of this website whether such liability is under contract. We, including our officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this website."
+        }
+      },
+      "7": {
+        "title": "7. Indemnification",
+        "texts": {
+          "1": "You hereby indemnify to the fullest extent us from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these terms."
+        }
+      },
+      "8": {
+        "title": "8. Severability",
+        "texts": {
+          "1": "If any provision of these terms is found to be invalid under any applicable law, such provisions shall be deleted without affecting the remaining provisions herein."
+        }
+      },
+      "9": {
+        "title": "9. Variation of Terms",
+        "texts": {
+          "1": "We are permitted to revise these terms at any time as it sees fit, and by using this website you are expected to review these terms on a regular basis."
+        }
+      },
+      "10": {
+        "title": "10. Assignment",
+        "texts": {
+          "1": "We are allowed to assign, transfer, and subcontract its rights and/or obligations under these terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these terms."
+        }
+      },
+      "11": {
+        "title": "11. Entire Agreement",
+        "texts": {
+          "1": "These terms constitute the entire agreement between us and you in relation to your use of this website, and supersede all prior agreements and understandings."
+        }
+      },
+      "12": {
+        "title": "12. Governing Law & Jurisdiction",
+        "texts": {
+          "1": "These terms will be governed by and interpreted in accordance with the laws of the state of our country, and you submit to the non-exclusive jurisdiction of the state and federal courts located in our country for the resolution of any disputes."
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our website.",
+    "date": "Last updated: 2024-01-01",
+    "content": {
+      "1": {
+        "title": "1. Information we collect",
+        "texts": {
+          "1": "We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used."
+        }
+      },
+      "2": {
+        "title": "2. How we use your information",
+        "texts": {
+          "1": "We use the information we collect in various ways, including to: provide, operate, and maintain our website; improve, personalize, and expand our website; understand and analyze how you use our website; develop new products, services, features, and functionality; communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes; send you emails; find and prevent fraud.",
+          "2": "We may also use your information to contact you for market research purposes. We may contact you by email, phone, or mail. We may use the information to customize the website according to your interests."
+        }
+      },
+      "3": {
+        "title": "3. Log Files",
+        "texts": {
+          "1": "We follow a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.",
+          "2": "Our Privacy Policy was created with the help of the Privacy Policy Generator."
+        }
+      },
+      "4": {
+        "title": "4. Cookies and Web Beacons",
+        "texts": {
+          "1": "Like any other website, we use 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information."
+        }
+      },
+      "5": {
+        "title": "5. Advertising Partners Privacy Policies",
+        "texts": {
+          "1": "You may consult this list to find the Privacy Policy for each of the advertising partners of our website. Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on our website, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit."
+        }
+      },
+      "6": {
+        "title": "6. Third Party Privacy Policies",
+        "texts": {
+          "1": "Our website's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options."
+        }
+      },
+      "7": {
+        "title": "7. Children's Information",
+        "texts": {
+          "1": "Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. We do not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records."
+        }
+      },
+      "8": {
+        "title": "8. Online Privacy Policy Only",
+        "texts": {
+          "1": "This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in our website. This policy is not applicable to any information collected offline or via channels other than this website."
+        }
+      }
+    }
+  }
+}

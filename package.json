@@ -1,0 +1,22 @@
+{
+  "name": "aq-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "bun@1.2.22",
+  "engines": {
+    "bun": ">=1.2.22",
+    "node": ">=18"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "bun -w run build",
+    "test": "bun -w run test",
+    "dev": "bun --filter web run dev",
+    "lint": "bun --filter web run lint",
+    "devnet": "bun --filter contracts run devnet",
+    "deploy:contracts": "bun --filter contracts run deploy",
+    "typechain": "bun --filter contracts run typechain"
+  }
+}

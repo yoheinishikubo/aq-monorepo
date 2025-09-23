@@ -1,0 +1,210 @@
+{
+  "Index": {
+    "title": "Hỗ trợ những người bạn yêu thích, đúc NFT",
+    "description": "Nhập tên người dùng X của người bạn yêu thích để hỗ trợ họ.",
+    "receiveLogs": "Lịch sử nhận được",
+    "supportLogs": "Lịch sử hỗ trợ",
+    "previewProfile": "Xem trước hồ sơ"
+  },
+  "Account": {
+    "bannerImageAlt": "Ảnh bìa",
+    "supportButton": "Hỗ trợ @{username}",
+    "viewButton": "Xem @{username}",
+    "connectWalletToSupport": "Kết nối Ví để Hỗ trợ @{username}",
+    "errorTitle": "Lỗi",
+    "errorDescription": "Không tìm thấy địa chỉ hợp đồng cho người dùng: @{username}"
+  },
+  "ConfirmSupportDialog": {
+    "error": "Lỗi",
+    "walletNotConnected": "Ví chưa kết nối.",
+    "failedToGetTypedData": "Không thể lấy dữ liệu đã ký.",
+    "success": "Thành công!",
+    "nftMinted": "NFT đã được đúc.",
+    "paymentFailed": "Thanh toán thất bại",
+    "paymentError": "Đã xảy ra lỗi khi xử lý thanh toán của bạn. Vui lòng thử lại.",
+    "title": "Xác nhận hỗ trợ",
+    "description": "Bạn sắp hỗ trợ @{username}. Vui lòng xác nhận các chi tiết bên dưới.",
+    "confirmButton": "Xác nhận hỗ trợ",
+    "cancelButton": "Hủy bỏ"
+  },
+  "Tokens": {
+    "title": "Các token được hỗ trợ",
+    "description": "Chọn một token để xem số dư và thông tin chi tiết.",
+    "name": "Tên",
+    "symbol": "Ký hiệu",
+    "balance": "Số dư"
+  },
+  "ValueDialog": {
+    "title": "GIÁ TRỊ",
+    "description": "Bạn sẽ hỗ trợ @{username} bao nhiêu?",
+    "balance": "Số dư: {balance}",
+    "max": "tối đa",
+    "confirm": "Xác nhận",
+    "close": "Đóng"
+  },
+  "MessageButton": {
+    "sendMessage": "Gửi tin nhắn",
+    "messageSent": "Đã gửi tin nhắn"
+  },
+  "NFTPage": {
+    "tokenId": "ID token: {tokenId}",
+    "owner": "Chủ sở hữu",
+    "description": "Mô tả",
+    "value": "Giá trị",
+    "creatorAddress": "Địa chỉ người tạo",
+    "supportMore": "Hỗ trợ thêm cho @{username}"
+  },
+  "PreviewContent": {
+    "copied": "Đã sao chép!",
+    "addressCopied": "Địa chỉ đã được sao chép vào khay nhớ tạm.",
+    "copyFailed": "Sao chép thất bại",
+    "couldNotCopyAddress": "Không thể sao chép địa chỉ.",
+    "bannerImageAlt": "Ảnh bìa",
+    "areYouUsername": "Bạn có phải là @{username} không?",
+    "deployInstruction": "Để triển khai hợp đồng thông minh NFT của bạn, hãy thêm địa chỉ ví này vào mô tả hồ sơ X của bạn:",
+    "confirmProceed": "Sau khi bạn đã thêm nó, hãy nhấn Xác nhận để tiếp tục.",
+    "achtung": "Lưu ý:",
+    "ensureDetails": "Đảm bảo chi tiết hồ sơ của bạn (tên, mô tả, biểu tượng, ảnh bìa) là chính xác và phù hợp. Thông tin này sẽ được lưu trữ vĩnh viễn trên blockchain và không thể thay đổi.",
+    "confirm": "Xác nhận"
+  },
+  "VerifyPage": {
+    "noExifComment": "Không tìm thấy UserComment EXIF.",
+    "errorProcessingFile": "Lỗi: {message}",
+    "onlyJpegAllowed": "Chỉ cho phép các tệp JPEG.",
+    "title": "Xác minh tệp JPEG",
+    "dropFiles": "Thả các tệp JPEG vào đây...",
+    "dragOrClick": "Kéo và thả một số tệp JPEG vào đây hoặc nhấp để chọn tệp",
+    "fileName": "Tên tệp",
+    "size": "Kích thước (byte)",
+    "type": "Loại",
+    "verified": "Đã xác minh",
+    "message": "Tin nhắn",
+    "signerAddress": "Địa chỉ người ký",
+    "error": "Lỗi",
+    "yes": "Có",
+    "no": "Không",
+    "notAvailable": "Không có sẵn"
+  },
+  "Footer": {
+    "copyright": "© {year} Dự án aq",
+    "terms": "Điều khoản",
+    "privacy": "Quyền riêng tư"
+  },
+  "Header": {
+    "loading": "Đang tải ví...",
+    "notConnected": "Ví chưa kết nối",
+    "title": "aq Mint",
+    "connectWallet": "Kết nối Ví"
+  },
+  "ConnectWalletDialog": {
+    "title": "Kết nối Ví",
+    "description": "Một hộp thoại đăng nhập hiện đang mở. Vui lòng chọn tài khoản mạng xã hội ưa thích của bạn để kết nối ví.",
+    "connect": "Kết nối"
+  },
+  "DisconnectWalletDialog": {
+    "title": "Ngắt kết nối Ví",
+    "description": "Bạn có chắc chắn muốn ngắt kết nối ví của mình không?",
+    "cancel": "Hủy bỏ",
+    "disconnect": "Ngắt kết nối"
+  },
+  "ErrorDialog": {
+    "close": "Đóng"
+  },
+  "MessageDialog": {
+    "connectWallet": "Vui lòng kết nối ví của bạn",
+    "title": "Gửi thẻ tin nhắn",
+    "description": "Gửi tin nhắn cho người tạo NFT.",
+    "message": "Tin nhắn",
+    "placeholder": "Nhập tin nhắn của bạn ở đây.",
+    "send": "Gửi thẻ tin nhắn",
+    "confirmTitle": "Xác nhận tin nhắn",
+    "confirmDescription": "Bạn có chắc chắn muốn gửi tin nhắn này không?",
+    "cancel": "Hủy bỏ",
+    "confirmSend": "Xác nhận gửi"
+  },
+  "ReceiveLogs": {
+    "supporter": "Người hỗ trợ",
+    "tokenId": "ID token",
+    "value": "Giá trị",
+    "mintedAt": "Đúc lúc",
+    "timestamp": "Dấu thời gian",
+    "message": "Tin nhắn",
+    "reply": "Trả lời",
+    "transaction": "Giao dịch",
+    "alreadyReplied": "Đã trả lời",
+    "view": "Xem",
+    "previous": "Trước đó",
+    "next": "Tiếp theo",
+    "page": "Trang",
+    "of": "trong"
+  },
+  "ReplyDialog": {
+    "connectWallet": "Vui lòng kết nối ví của bạn trước.",
+    "enterMessage": "Vui lòng nhập tin nhắn.",
+    "failedToSend": "Không thể gửi trả lời. Vui lòng thử lại.",
+    "replyToMessage": "Trả lời tin nhắn này",
+    "title": "Trả lời tin nhắn",
+    "yourReply": "Câu trả lời của bạn",
+    "placeholder": "Nhập câu trả lời của bạn ở đây.",
+    "sending": "Đang gửi...",
+    "sendReply": "Gửi trả lời",
+    "confirmTitle": "Xác nhận trả lời",
+    "confirmDescription": "Bạn có chắc chắn muốn gửi trả lời này không?",
+    "cancel": "Hủy bỏ",
+    "confirmSend": "Xác nhận gửi"
+  },
+  "SupportLogs": {
+    "noReplyCard": "Không tìm thấy thẻ trả lời cho token này.",
+    "accountSupported": "Tài khoản được hỗ trợ",
+    "tokenId": "ID token",
+    "value": "Giá trị",
+    "mintedAt": "Đúc lúc",
+    "timestamp": "Dấu thời gian",
+    "message": "Tin nhắn",
+    "reply": "Trả lời",
+    "transaction": "Giao dịch",
+    "download": "Tải xuống",
+    "notYet": "Chưa",
+    "view": "Xem",
+    "previous": "Trước đó",
+    "next": "Tiếp theo",
+    "page": "Trang",
+    "of": "trong"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "Hỗ trợ những người bạn yêu thích",
+    "slide1Description": "Thể hiện sự trân trọng của bạn bằng cách đúc một NFT độc đáo. Người bạn yêu thích sẽ nhận được sự hỗ trợ ngay lập tức.",
+    "slide2Title": "Thanh toán linh hoạt",
+    "slide2Description": "Đúc NFT bằng bất kỳ mã thông báo nào bạn nắm giữ. Chúng tôi tự động xử lý việc chuyển đổi sang USDt cho người bạn yêu thích.",
+    "slide3Title": "Nhận một NFT độc đáo",
+    "slide3Description": "Nhận một chứng thực mật mã độc nhất vô nhị như một bằng chứng vĩnh viễn cho sự hỗ trợ của bạn.",
+    "slide4Title": "Gửi một tin nhắn cá nhân",
+    "slide4Description": "Đính kèm một tin nhắn cá nhân vào NFT của bạn và kết nối trực tiếp với người bạn yêu thích.",
+    "slide5Title": "Nhận một câu trả lời",
+    "slide5Description": "Người bạn yêu thích của bạn có thể trả lời tin nhắn của bạn. Sau đó, bạn có thể tải xuống toàn bộ cuộc trò chuyện dưới dạng một hình ảnh có thể xác minh, ghi lại sự tương tác của bạn mãi mãi.",
+    "slide6Title": "Sẵn sàng bắt đầu?",
+    "slide6Description": "Bạn đã sẵn sàng để bắt đầu hành trình của mình. Nhấp vào nút bên dưới để đóng hướng dẫn này và bắt đầu khám phá.",
+    "closeButton": "Bắt đầu"
+  },
+  "HowPage": {
+    "title": "Biến hồ sơ X của bạn thành một bộ sưu tập NFT",
+    "intro": "Bạn đã bao giờ muốn cung cấp cho người hâm mộ của mình một cách độc đáo để hỗ trợ bạn chưa? Dịch vụ này biến hồ sơ X của bạn thành một chứng thực mật mã mà những người theo dõi bạn có thể sở hữu. Đó là một cách đơn giản để nhận được sự đánh giá cao bằng tiền điện tử mà không cần bất kỳ kỹ năng kỹ thuật nào.",
+    "autoCreation": "Dịch vụ này tự động sử dụng biểu tượng, ảnh bìa và tiểu sử X hiện có của bạn để tạo NFT. Không cần thiết kế bất cứ thứ gì mới!",
+    "whatYouNeedTitle": "Những gì bạn cần",
+    "whatYouNeed": "Một hồ sơ X đang hoạt động (cho bạn hoặc thương hiệu của bạn).",
+    "howItWorksTitle": "Cách thức hoạt động: 3 bước đơn giản",
+    "step1Title": "Bước 1: Xem trước NFT của bạn",
+    "step1_1": "Đi đến trang đầu của dịch vụ này.",
+    "step1_2": "Nhập tên người dùng X của bạn (ví dụ: @yourname).",
+    "step1_3": "Nhấp vào \"Xem trước hồ sơ\" để xem NFT của bạn sẽ trông như thế nào.",
+    "step1_4": "Kiểm tra xem biểu tượng, ảnh bìa và tiểu sử của bạn có chính xác không.",
+    "step2Title": "Bước 2: Liên kết ví và hồ sơ X của bạn",
+    "step2_1": "Nhấp vào \"Kết nối ví\" và đăng nhập bằng tài khoản xã hội ưa thích của bạn.",
+    "step2_2": "Dịch vụ sẽ cung cấp cho bạn một địa chỉ ví duy nhất. Nhấp vào nút \"Sao chép\".",
+    "step2_3": "Đi tới cài đặt hồ sơ X của bạn và dán địa chỉ này vào tiểu sử của bạn. Lưu các thay đổi.",
+    "step3Title": "Bước 3: Ra mắt NFT của bạn",
+    "step3_1": "Quay lại dịch vụ này và nhấp vào \"Xác nhận\".",
+    "step3_2": "Vậy là xong! Chúng tôi sẽ tạo bộ sưu tập NFT của bạn và gửi cái đầu tiên (#0) đến ví của bạn.",
+    "step3_3": "Chia sẻ liên kết cá nhân của bạn (ví dụ: https://aq.life/your-profile-name) với người hâm mộ của bạn để họ có thể bắt đầu thu thập!"
+  }
+}

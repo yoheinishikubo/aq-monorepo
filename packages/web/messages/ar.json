@@ -1,0 +1,238 @@
+{
+  "Index": {
+    "title": "ادعم مفضّلك، اصك NFT",
+    "description": "أدخل اسم مستخدم X المفضل لديك لدعمه.",
+    "receiveLogs": "الدعم المستلم",
+    "supportLogs": "دعمك",
+    "depositLogs": "إيداعاتك",
+    "depositedLogs": "الإيداعات المستلمة",
+    "previewProfile": "معاينة الملف الشخصي"
+  },
+  "Account": {
+    "bannerImageAlt": "صورة البانر",
+    "supportButton": "ادعم @{username}",
+    "viewButton": "شاهد @{username}",
+    "connectWalletToSupport": "ربط المحفظة لدعم @{username}",
+    "errorTitle": "خطأ",
+    "errorDescription": "لم يتم العثور على عنوان عقد لا يوجد له تعاقد لاسم المستخدم: @{username}"
+  },
+  "ConfirmSupportDialog": {
+    "error": "خطأ",
+    "walletNotConnected": "المحفظة غير متصلة.",
+    "failedToGetTypedData": "فشل في الحصول على البيانات المكتوبة.",
+    "success": "نجاح!",
+    "nftMinted": "تم صك الـ NFT.",
+    "paymentFailed": "فشل الدفع",
+    "paymentError": "حدث خطأ أثناء معالجة دفعتك. يرجى المحاولة مرة أخرى.",
+    "title": "تأكيد دعمك",
+    "description": "أنت على وشك دعم @{username}. يرجى تأكيد التفاصيل أدناه.",
+    "confirmButton": "تأكيد الدعم",
+    "cancelButton": "إلغاء"
+  },
+  "Tokens": {
+    "title": "الرموز المدعومة",
+    "description": "حدد رمزًا لعرض رصيدك وتفاصيله.",
+    "name": "الاسم",
+    "symbol": "الرمز",
+    "balance": "الرصيد"
+  },
+  "ValueDialog": {
+    "title": "القيمة",
+    "description": "كم ستدعم @{username}؟",
+    "balance": "الرصيد: {balance}",
+    "max": "الحد الأقصى",
+    "confirm": "تأكيد",
+    "close": "إغلاق"
+  },
+  "MessageButton": {
+    "sendMessage": "إرسال رسالة",
+    "messageSent": "تم إرسال الرسالة"
+  },
+  "NFTPage": {
+    "tokenId": "معرف الرمز: {tokenId}",
+    "owner": "المالك",
+    "description": "الوصف",
+    "value": "القيمة",
+    "creatorAddress": "عنوان المنشئ",
+    "supportMore": "ادعم @{username} أكثر"
+  },
+  "PreviewContent": {
+    "copied": "تم النسخ!",
+    "addressCopied": "تم نسخ العنوان إلى الحافظة.",
+    "copyFailed": "فشل النسخ",
+    "couldNotCopyAddress": "تعذر نسخ العنوان.",
+    "bannerImageAlt": "صورة البانر",
+    "areYouUsername": "هل أنت @{username}؟",
+    "deployInstruction": "لنشر عقد NFT الذكي الخاص بك، أضف عنوان هذه المحفظة إلى وصف ملفك الشخصي في X:",
+    "confirmProceed": "بمجرد إضافته، اضغط على تأكيد للمتابعة.",
+    "achtung": "انتباه:",
+    "ensureDetails": "تأكد من أن تفاصيل ملفك الشخصي (الاسم، الوصف، الرمز، البانر) دقيقة ومناسبة. سيتم تخزين هذه المعلومات بشكل دائم على البلوك تشين ولا يمكن تغييرها.",
+    "confirm": "تأكيد"
+  },
+  "VerifyPage": {
+    "noExifComment": "لم يتم العثور على تعليق EXIF UserComment.",
+    "errorProcessingFile": "خطأ: {message}",
+    "onlyJpegAllowed": "يُسمح بملفات JPEG فقط.",
+    "title": "التحقق من ملفات JPEG",
+    "dropFiles": "اسحب وأفلت ملفات JPEG هنا ...",
+    "dragOrClick": "اسحب وأفلت بعض ملفات JPEG هنا، أو انقر لتحديد الملفات",
+    "fileName": "اسم الملف",
+    "size": "الحجم (بايت)",
+    "type": "النوع",
+    "verified": "تم التحقق",
+    "message": "رسالة",
+    "signerAddress": "عنوان الموقع",
+    "error": "خطأ",
+    "yes": "نعم",
+    "no": "لا",
+    "notAvailable": "غير متاح"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "الشروط",
+    "privacy": "الخصوصية"
+  },
+  "Header": {
+    "loading": "جاري تحميل المحفظة...",
+    "notConnected": "المحفظة غير متصلة",
+    "title": "aq Mint",
+    "connectWallet": "اتصل بالمحفظة"
+  },
+  "ConnectWalletDialog": {
+    "title": "اتصل المحفظة",
+    "description": "يظهر الآن مربع تسجيل الدخول. يرجى اختيار حسابك الاجتماعي المفضل لربط محفظة.",
+    "connect": "اتصل"
+  },
+  "DisconnectWalletDialog": {
+    "title": "قطع الاتصال بالمحفظة",
+    "description": "هل أنت متأكد من أنك تريد قطع اتصال محفظتك؟",
+    "cancel": "إلغاء",
+    "disconnect": "قطع الاتصال"
+  },
+  "ErrorDialog": {
+    "close": "أغلق"
+  },
+  "MessageDialog": {
+    "connectWallet": "يرجى توصيل محفظتك",
+    "title": "إرسال بطاقة رسالة",
+    "description": "أرسل رسالة إلى منشئ الـ NFT.",
+    "message": "رسالة",
+    "placeholder": "اكتب رسالتك هنا.",
+    "send": "إرسال بطاقة رسالة",
+    "confirmTitle": "تأكيد الرسالة",
+    "confirmDescription": "هل أنت متأكد أنك تريد إرسال هذه الرسالة؟",
+    "cancel": "إلغاء",
+    "confirmSend": "تأكيد الإرسال"
+  },
+  "ReceiveLogs": {
+    "supporter": "الداعم",
+    "tokenId": "معرف الرمز",
+    "value": "القيمة",
+    "mintedAt": "تم الصك في",
+    "timestamp": "الطابع الزمني",
+    "message": "رسالة",
+    "reply": "رد",
+    "transaction": "المعاملة",
+    "alreadyReplied": "تم الرد بالفعل",
+    "view": "عرض",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "ReplyDialog": {
+    "connectWallet": "يرجى توصيل محفظتك أولاً.",
+    "enterMessage": "يرجى إدخال رسالة.",
+    "failedToSend": "فشل إرسال الرد. يرجى المحاولة مرة أخرى.",
+    "replyToMessage": "الرد على هذه الرسالة",
+    "title": "الرد على الرسالة",
+    "yourReply": "ردك",
+    "placeholder": "اكتب ردك هنا.",
+    "sending": "جار الإرسال...",
+    "sendReply": "إرسال الرد",
+    "confirmTitle": "تأكيد الرد",
+    "confirmDescription": "هل أنت متأكد أنك تريد إرسال هذا الرد؟",
+    "cancel": "إلغاء",
+    "confirmSend": "تأكيد الإرسال"
+  },
+  "SupportLogs": {
+    "noReplyCard": "لم يتم العثور على بطاقة رد لهذا الرمز.",
+    "accountSupported": "الحساب المدعوم",
+    "tokenId": "معرف الرمز",
+    "value": "القيمة",
+    "mintedAt": "تم الصك في",
+    "timestamp": "الطابع الزمني",
+    "message": "رسالة",
+    "reply": "رد",
+    "transaction": "المعاملة",
+    "download": "تنزيل",
+    "notYet": "ليس بعد",
+    "view": "عرض",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "DepositLogs": {
+    "favorite": "المفضّل",
+    "owner": "المالك",
+    "value": "القيمة",
+    "share": "الحصة (%)",
+    "mintedAt": "الطابع الزمني",
+    "transaction": "المعاملة",
+    "view": "عرض",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "DepositedLogs": {
+    "favorite": "المفضّل",
+    "owner": "المالك",
+    "value": "القيمة",
+    "share": "الحصة (%)",
+    "mintedAt": "الطابع الزمني",
+    "transaction": "المعاملة",
+    "view": "عرض",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "ادعم أشخاصك المفضلين",
+    "slide1Description": "أظهر تقديرك عن طريق صك NFT فريد. سيتلقى شخصك المفضل دعمك على الفور.",
+    "slide2Title": "مدفوعات مرنة",
+    "slide2Description": "صك NFTs باستخدام أي توكن تملكه. نحن نتولى التحويل إلى USDt لشخصك المفضل تلقائيًا.",
+    "slide3Title": "احصل على NFT فريد",
+    "slide3Description": "احصل على تأييد تشفيري فريد من نوعه كدليل دائم على دعمك.",
+    "slide4Title": "أرسل رسالة شخصية",
+    "slide4Description": "أرفق رسالة شخصية بـ NFT الخاص بك وتواصل مباشرة مع شخصك المفضل.",
+    "slide5Title": "احصل على رد",
+    "slide5Description": "يمكن لشخصك المفضل الرد على رسالتك. يمكنك بعد ذلك تنزيل المحادثة بأكملها كصورة يمكن التحقق منها، لالتقاط تفاعلك إلى الأبد.",
+    "slide6Title": "هل أنت مستعد للبدء؟",
+    "slide6Description": "أنت جاهز تمامًا لبدء رحلتك. انقر فوق الزر أدناه لإغلاق هذا البرنامج التعليمي والبدء في الاستكشاف.",
+    "closeButton": "ابدأ"
+  },
+  "HowPage": {
+    "title": "حول ملفك الشخصي في X إلى مجموعة NFT",
+    "intro": "هل أردت يومًا أن تمنح معجبيك طريقة فريدة لدعمك؟ تحول هذه الخدمة ملفك الشخصي في X إلى تأييد تشفيري يمكن لمتابعيك امتلاكه. إنها طريقة بسيطة لتلقي التقدير بالعملة المشفرة، دون الحاجة إلى أي مهارات تقنية.",
+    "autoCreation": "تستخدم هذه الخدمة تلقائيًا أيقونتك وشعارك وسيرتك الذاتية الحالية في X لإنشاء NFT. لا حاجة لتصميم أي شيء جديد!",
+    "whatYouNeedTitle": "ماذا ستحتاج",
+    "whatYouNeed": "ملف شخصي نشط في X (لك أو لعلامتك التجارية).",
+    "howItWorksTitle": "كيف تعمل: 3 خطوات بسيطة",
+    "step1Title": "الخطوة 1: معاينة NFT الخاص بك",
+    "step1_1": "اذهب إلى الصفحة الرئيسية لهذه الخدمة.",
+    "step1_2": "أدخل معرف X الخاص بك (على سبيل المثال، @yourname).",
+    "step1_3": "انقر فوق \"معاينة الملف الشخصي\" لترى كيف سيبدو NFT الخاص بك.",
+    "step1_4": "تحقق من صحة أيقونتك وشعارك وسيرتك الذاتية.",
+    "step2Title": "الخطوة 2: اربط محفظتك وملفك الشخصي في X",
+    "step2_1": "انقر فوق \"توصيل المحفظة\" وقم بتسجيل الدخول باستخدام حسابك الاجتماعي المفضل.",
+    "step2_2": "ستمنحك الخدمة عنوان محفظة فريدًا. انقر فوق زر \"نسخ\".",
+    "step2_3": "اذهب إلى إعدادات ملفك الشخصي في X والصق هذا العنوان في سيرتك الذاتية. احفظ التغييرات.",
+    "step3Title": "الخطوة 3: أطلق NFT الخاص بك",
+    "step3_1": "عد إلى هذه الخدمة وانقر فوق \"تأكيد\".",
+    "step3_2": "هذا كل شيء! سننشئ مجموعة NFT الخاصة بك ونرسل أول واحد (#0) إلى محفظتك.",
+    "step3_3": "شارك رابطك الشخصي (على سبيل المثال، https://aq.life/your-profile-name) مع معجبيك حتى يتمكنوا من البدء في التجميع!"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Index": {
+    "title": "支持您喜愛的創作者，鑄造NFT",
+    "description": "輸入您喜歡的X用戶名以表達您的支持。",
+    "receiveLogs": "接收記錄",
+    "supportLogs": "支持記錄",
+    "previewProfile": "預覽個人資料"
+  },
+  "Account": {
+    "bannerImageAlt": "橫幅圖片",
+    "supportButton": "支持 @{username}",
+    "viewButton": "查看 @{username}",
+    "connectWalletToSupport": "連接錢包以支持 @{username}",
+    "errorTitle": "錯誤",
+    "errorDescription": "找不到指定用戶的合約地址。"
+  },
+  "ConfirmSupportDialog": {
+    "error": "錯誤",
+    "walletNotConnected": "錢包尚未連接。",
+    "failedToGetTypedData": "獲取類型化數據失敗。",
+    "success": "成功！",
+    "nftMinted": "NFT已鑄造完成。",
+    "paymentFailed": "支付失敗",
+    "paymentError": "處理您的付款時發生錯誤。請稍後再試。",
+    "title": "確認您的支持",
+    "description": "您即將支持 @{username}。請確認以下詳細資訊。",
+    "confirmButton": "確認支持",
+    "cancelButton": "取消"
+  },
+  "Tokens": {
+    "title": "支持的代幣",
+    "description": "選擇一個代幣以查看您的餘額和相關資訊。",
+    "name": "名稱",
+    "symbol": "符號",
+    "balance": "餘額"
+  },
+  "ValueDialog": {
+    "title": "價值",
+    "description": "您將如何支持 @{username}？",
+    "balance": "餘額：{balance}",
+    "max": "最大值",
+    "confirm": "確認",
+    "close": "關閉"
+  },
+  "MessageButton": {
+    "sendMessage": "發送消息",
+    "messageSent": "消息已發送"
+  },
+  "NFTPage": {
+    "tokenId": "代幣ID：{tokenId}",
+    "owner": "所有者",
+    "description": "描述",
+    "value": "價值",
+    "creatorAddress": "創建者地址",
+    "supportMore": "更多支持 @{username}"
+  },
+  "PreviewContent": {
+    "copied": "已複製！",
+    "addressCopied": "地址已複製到剪貼板。",
+    "copyFailed": "複製失敗",
+    "couldNotCopyAddress": "無法複製地址。",
+    "bannerImageAlt": "橫幅圖片",
+    "areYouUsername": "您是 @{username} 嗎？",
+    "deployInstruction": "若要部署您的NFT智能合約，請將此錢包地址新增到您的X個人資料描述中：",
+    "confirmProceed": "新增後，按“確認”繼續。",
+    "achtung": "注意：",
+    "ensureDetails": "請確保您的個人資料資訊（姓名、描述、圖示、橫幅）正確且適當。此資訊將永久儲存在區塊鏈上，無法更改。",
+    "confirm": "確認"
+  },
+  "VerifyPage": {
+    "noExifComment": "未找到EXIF用戶評論。",
+    "errorProcessingFile": "錯誤：{message}",
+    "onlyJpegAllowed": "僅允許使用JPEG文件。",
+    "title": "驗證JPEG文件",
+    "dropFiles": "將JPEG文件拖放到此處...",
+    "dragOrClick": "將一些JPEG文件拖放到此處，或點擊以選擇文件",
+    "fileName": "文件名",
+    "size": "大小（字節）",
+    "type": "類型",
+    "verified": "已驗證",
+    "message": "消息",
+    "signerAddress": "簽名者地址",
+    "error": "錯誤",
+    "yes": "是",
+    "no": "否",
+    "notAvailable": "不適用"
+  },
+  "Footer": {
+    "copyright": "© {year} Project aq",
+    "terms": "條款",
+    "privacy": "隱私"
+  },
+  "Header": {
+    "loading": "正在加載錢包...",
+    "notConnected": "錢包尚未連接",
+    "title": "aq Mint",
+    "connectWallet": "連接錢包"
+  },
+  "ConnectWalletDialog": {
+    "title": "連接錢包",
+    "description": "登入對話框現在正在開啟。請選擇您偏好的社群帳戶以連接錢包。",
+    "connect": "連接"
+  },
+  "DisconnectWalletDialog": {
+    "title": "斷開錢包連接",
+    "description": "您確定要斷開您的錢包連接嗎？",
+    "cancel": "取消",
+    "disconnect": "斷開連接"
+  },
+  "ErrorDialog": {
+    "close": "關閉"
+  },
+  "MessageDialog": {
+    "connectWallet": "請先連接您的錢包",
+    "title": "發送消息卡",
+    "description": "向NFT創建者發送消息。",
+    "message": "消息",
+    "placeholder": "在此處輸入您的消息。",
+    "send": "發送消息卡",
+    "confirmTitle": "確認消息",
+    "confirmDescription": "您確定要發送此消息嗎？",
+    "cancel": "取消",
+    "confirmSend": "確認發送"
+  },
+  "ReceiveLogs": {
+    "supporter": "支持者",
+    "tokenId": "代幣ID",
+    "value": "價值",
+    "mintedAt": "鑄造於",
+    "timestamp": "時間戳",
+    "message": "消息",
+    "reply": "回复",
+    "transaction": "交易",
+    "alreadyReplied": "已回复",
+    "view": "查看",
+    "previous": "上一個",
+    "next": "下一個",
+    "page": "頁",
+    "of": "的"
+  },
+  "ReplyDialog": {
+    "connectWallet": "請先連接您的錢包。",
+    "enterMessage": "請輸入消息。",
+    "failedToSend": "發送回复失敗。請再試一次。",
+    "replyToMessage": "回复此消息",
+    "title": "回复消息",
+    "yourReply": "您的回复",
+    "placeholder": "在此處輸入您的回复。",
+    "sending": "正在發送...",
+    "sendReply": "發送回复",
+    "confirmTitle": "確認回复",
+    "confirmDescription": "您確定要發送此回复嗎？",
+    "cancel": "取消",
+    "confirmSend": "確認發送"
+  },
+  "SupportLogs": {
+    "noReplyCard": "未找到此代幣的回复卡。",
+    "accountSupported": "支持的帳戶",
+    "tokenId": "代幣ID",
+    "value": "價值",
+    "mintedAt": "鑄造於",
+    "timestamp": "時間戳",
+    "message": "消息",
+    "reply": "回复",
+    "transaction": "交易",
+    "download": "下載",
+    "notYet": "尚未",
+    "view": "查看",
+    "previous": "上一個",
+    "next": "下一個",
+    "page": "頁",
+    "of": "的"
+  },
+  "TutorialCarousel": {
+    "slide1Title": "支持你最喜歡的人",
+    "slide1Description": "通過鑄造一個獨特的NFT來表達你的欣賞。你最喜歡的人會立即收到你的支持。",
+    "slide2Title": "靈活的付款方式",
+    "slide2Description": "使用你持有的任何代幣鑄造NFT。我們會自動為你最喜歡的人處理轉換為USDt。",
+    "slide3Title": "收到一個獨特的NFT",
+    "slide3Description": "獲得一個獨一無二的加密背書，作為你支持的永久證明。",
+    "slide4Title": "發送個人信息",
+    "slide4Description": "在你的NFT上附加一條個人信息，直接與你最喜歡的人聯繫。",
+    "slide5Title": "獲得回复",
+    "slide5Description": "你最喜歡的人可以回复你的信息。然後你可以將整個對話下載為可驗證的圖片，永久記錄你們的互動。",
+    "slide6Title": "準備好開始了嗎？",
+    "slide6Description": "你已經準備好開始你的旅程了。點擊下面的按鈕關閉本教程並開始探索。",
+    "closeButton": "開始"
+  },
+  "HowPage": {
+    "title": "將您的X個人資料變成NFT收藏品",
+    "intro": "曾經想給你的粉絲一種獨特的方式來支持你嗎？這項服務將你的X個人資料轉變為你的追隨者可以擁有的加密背書。這是一種無需任何技術技能即可在加密貨幣中獲得讚賞的簡單方法。",
+    "autoCreation": "這項服務會自動使用你現有的X圖示、橫幅和簡介來創建NFT。無需設計任何新東西！",
+    "whatYouNeedTitle": "您需要什麼",
+    "whatYouNeed": "一個活躍的X個人資料（為您或您的品牌）。",
+    "howItWorksTitle": "運作方式：3個簡單步驟",
+    "step1Title": "第1步：預覽您的NFT",
+    "step1_1": "轉到此服務的首頁。",
+    "step1_2": "輸入您的X用戶名（例如@yourname）。",
+    "step1_3": "點擊“預覽個人資料”以查看您的NFT的外觀。",
+    "step1_4": "檢查您的圖示、橫幅和簡介是否正確。",
+    "step2Title": "第2步：鏈接您的錢包和X個人資料",
+    "step2_1": "點擊“連接錢包”並使用您首選的社交帳戶登錄。",
+    "step2_2": "該服務將為您提供一個唯一的錢包地址。點擊“複製”按鈕。",
+    "step2_3": "轉到您的X個人資料設置，並將此地址粘貼到您的簡介中。保存更改。",
+    "step3Title": "第3步：啟動您的NFT",
+    "step3_1": "回到此服務並點擊“確認”。",
+    "step3_2": "就是這樣！我們將創建您的NFT收藏品，並將第一個（#0）發送到您的錢包。",
+    "step3_3": "與您的粉絲分享您的個人鏈接（例如https://aq.life/your-profile-name），以便他們可以開始收藏！"
+  }
+}

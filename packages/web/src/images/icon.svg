@@ -1,0 +1,59 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject x="0" y="0" width="512" height="512">
+
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <div class="container">
+                <div class="captions">
+                    <div class="xl">___HERE___ USDt</div>
+                    <span class="sm">supported by ___HERE___</span>
+                    <span class="sm">for @___HERE___</span>
+                    <span class="sm">___HERE___</span>
+                    <span class="sm">#___HERE___</span>
+                    <span class="xs">minted at ___HERE___ with aq Mint</span>
+                </div>
+            </div>
+        </div>
+        <style>
+            .captions {
+                white-space: nowrap;
+                background: rgba(0, 0, 0, 0.6);
+                color: #FFC;
+                font-family: Helvetica, Arial, sans-serif;
+                text-shadow: 1px 1px 2px black;
+                padding: 20px 20px 5px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .xl {
+                font-size: 2.5rem;
+                line-height: 3rem;
+                font-weight: bold;
+            }
+
+            .sm {
+                font-size: 1rem;
+                line-height: 1.6rem;
+            }
+
+            .xs {
+                font-size: 0.6rem;
+                line-height: 1rem;
+            }
+
+            .container {
+                background-image: url("___IMAGE___");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 512px;
+                height: 512px;
+                display: flex;
+                justify-content: center;
+                align-items: end;
+            }
+        </style>
+    </foreignObject>
+</svg>
